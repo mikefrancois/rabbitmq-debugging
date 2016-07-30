@@ -1,0 +1,5 @@
+A simple python setup to debug RabbitMQ servers. Uses the RabbitMQ firehose functionality to examine what is going on.
+
+
+Originally forked from https://gist.github.com/patjenk/7220935894daf16c2c84a2a0ddf0ddce
+
