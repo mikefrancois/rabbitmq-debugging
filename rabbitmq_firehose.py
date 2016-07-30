@@ -17,8 +17,7 @@ class PasswordPromptAction(argparse.Action):
         setattr(args, self.dest, password)
 
 
-parser = argparse.ArgumentParser(description="Connect to RabbitMQ and dump the output of t
-he firehose.")
+parser = argparse.ArgumentParser(description="Connect to RabbitMQ and dump the output of the firehose.")
 parser.add_argument("-u", "--user",
                     dest="rabbitmq_user",
                     action="store",
